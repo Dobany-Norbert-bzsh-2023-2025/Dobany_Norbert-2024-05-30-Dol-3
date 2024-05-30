@@ -1,0 +1,59 @@
+<!--
+File: index.html
+Author: Dobány Norbert
+Copyright: 2024, Dobány Norbert
+Group: Szoft I-1-N
+Date: 2024-05-30
+Github: https://github.com/notdefinitelynot/
+Licenc: GNU GPL
+-->
+<!DOCTYPE HTML>
+<html lang="hu">
+<!-- ... -->
+</html>
+
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellipsoid</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body style="background-color:darkslategrey; color:white">
+    <div class="container">
+      <h1 style="text-align: center;">Ellipsoid Volume Calculator</h1>
+      <div class="form">
+        <div class="input">
+          <label for="a" class="form-label">A semi-axis (cm)</label>
+          <input type="text" class="form-control" id="a">
+        </div>
+
+        <div class="input">
+          <label for="b" class="form-label">B semi-axis (cm)</label>
+          <input type="text" class="form-control" id="b">
+        </div>
+
+        <div class="input">
+          <label for="c" class="form-label">C semi-axis (cm)</label>
+          <input type="text" class="form-control" id="c">
+        </div>
+
+          <div>
+            <button type="button" class="btn btn-danger mt-3" id="calcBtn">Start</button>
+          </div>
+
+        <div class="input">
+          <label for="perimeter" class="form-label">Volume (cm³)</label>
+          <input type="text" class="form-control" id="volume">
+        </div>
+
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
+
